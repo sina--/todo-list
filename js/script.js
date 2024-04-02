@@ -3,7 +3,6 @@ function newItem() {
     //Create and append list item
     let li = $('<li></li>');
     let inputValue = $('#input').val();
-    let text = document.createTextNode(inputValue);
     li.append(inputValue);
 
     if (inputValue === '') {
